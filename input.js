@@ -19,7 +19,7 @@ const handleUserInput = (key) => {
   if (key === "S" || key === "s") {connection.write("Move: down")}
   if (key === "A" || key === "a") {connection.write("Move: left")}
   if (key === "D" || key === "d") {connection.write("Move: right")}
-  if (key === "G" || key === "g") {connection.write("Say: GGWP")};
+  if (key === "G" || key === "g") {connection.write("Say: GGEZ")};
 
 }
 
